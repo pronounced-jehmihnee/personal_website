@@ -1,0 +1,13 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    margin:0px;
+  padding: 0px;
+  /* background-color: rgb(7, 20, 32); */
+  background-color: rgb(24, 50, 83);
+  font-family: 'Raleway', 'Nanum Gothic', Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
