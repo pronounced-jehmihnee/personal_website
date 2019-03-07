@@ -147,14 +147,12 @@ body {
 #navigation ul li a:hover {
     width: 120px;
     color: var(--lgt-bg-txt);
-    font-size: 1.5em;
 }
 
 #navigation ul li a.current-page {
     width: 120px;
     font-size: 1.5em;
 }
-
 
 #content {
     background-color: var(--color-7);
@@ -165,7 +163,6 @@ body {
     padding: 5px 19.5px;
     border: rgb(255,255,255) solid .5px;
     border-radius: 2.5px;
-    overflow: hidden;
     
 }
 
