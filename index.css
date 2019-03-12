@@ -67,9 +67,14 @@ body {
     font-family: 'lektonregular', 'PT-sans', sans-serif;
     color: var(--dark-bg-txt);
     background-image: url(assets/15px_milkyway.png);
-    overflow-x: hidden;
     background-size: cover;
+    background-color: rgb(14, 19, 24);
     
+}
+
+h2 {
+    padding: 0;
+    margin: 5px;
 }
 
 
@@ -145,14 +150,17 @@ body {
 }
 
 #navigation ul li a:hover {
-    width: 120px;
+    width: 90px;
     color: var(--lgt-bg-txt);
+    font-size: 1.5em;
 }
 
 #navigation ul li a.current-page {
-    width: 120px;
-    font-size: 1.5em;
+    width: 90px;
+    font-size: 1.3em;
+    color: var(--lgt-bg-txt);
 }
+
 
 #content {
     background-color: var(--color-7);
@@ -163,15 +171,22 @@ body {
     padding: 5px 19.5px;
     border: rgb(255,255,255) solid .5px;
     border-radius: 2.5px;
+    overflow: hidden;
     
 }
 
 #content p {
     font-size: 1.1em;
+    padding: 0;
+}
+
+#content p:first-of-type {
+    margin-top: 2px;
 }
 
 #scroll {
     width: 720px;
+    /* margin-top: 10px; */
     height: 100%;
     overflow: auto;
     overflow-x: hidden;
